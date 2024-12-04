@@ -70,9 +70,9 @@
     }
   
     .button:hover {
-    background-image: url('./images/HoverDropdown.png');
+    
     background-size: cover;
-    border: none;
+    border: blue;
     width: 380px;
     }
   
