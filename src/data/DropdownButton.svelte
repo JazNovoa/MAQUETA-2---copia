@@ -73,7 +73,7 @@
     background-image: url('./images/HoverDropdown.png');
     background-size: cover;
     border: none;
-    width: 350px;
+    width: 380px;
     }
   
     .dropdown {
