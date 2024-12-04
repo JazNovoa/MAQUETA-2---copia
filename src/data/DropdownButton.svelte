@@ -70,8 +70,6 @@
     }
   
     .button:hover {
-    
-    background-size: cover;
     border: blue;
     width: 380px;
     }
