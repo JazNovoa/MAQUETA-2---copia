@@ -320,7 +320,7 @@ let circles = [];
 <h1 class="pregunta1">¿Qué juego de mesa preferís?</h1>
 <p class="subtitulos">No vale que no te gusten.</p>
 <div class="botones">
-<button class="boton" on:click={() => contador++ && respuesta1++}>Idle</button>
+<button class="boton" on:click={() => contador++ && respuesta1++}>Catan</button>
 <button class="boton" on:click={() => contador++ && respuesta2++}>Uno</button>
 <button class="boton" on:click={() => contador++ && respuesta3++}>Clue</button>
 <button class="boton" on:click={() => contador++ && respuesta4++}>La isla prohibida</button>
@@ -1129,14 +1129,14 @@ progress {
   }
 
 /* Textos resultados */
-  .rGenero{
+.rGenero{
     display: flex;
     width: 1235px;
     margin-top: 100px;
   }
 
   .tituloGenero{
-    font-size: 40px;
+    font-size: 50px;
     text-align: left;
     color: white;
     font-family: "Inria Sans", sans-serif;
@@ -1144,7 +1144,7 @@ progress {
   }
 
   .resaltar{
-    font-size: 40px;
+    font-size: 50px;
     text-align: left;
     color: #000AFF;
     font-family: "Inria Sans", sans-serif;
@@ -1154,12 +1154,12 @@ progress {
   .resultadoGenero{
     display: flex;
     justify-content: flex-end;
-    font-size: 40px;
+    font-size: 50px;
     text-align: left;
     color: #000AFF;
     font-family: "Inria Sans", sans-serif;
     margin-left: 115px;
-    margin-top: 57px;
+    margin-top: 70px;
     font-style: bold;
 
   }
@@ -1167,23 +1167,23 @@ progress {
   .bajadaResultado1{
     display: flex;
     position: absolute;
-    font-size: 20px;
+    font-size: 25px;
     text-align: left;
     color: white;
     font-family: "Inria Sans", sans-serif;
-    margin-left: 690px;
-    margin-top: 110px;
+    margin-left: 745px;
+    margin-top: 140px;
 
   }
 
   .rAdictividad{
     display: flex;
     width: 1235px;
-    margin-top: 250px;
+    margin-top: 350px;
   }
 
   .tituloAdictividad{
-    font-size: 40px;
+    font-size: 50px;
     text-align: left;
     color: white;
     font-family: "Inria Sans", sans-serif;
@@ -1191,7 +1191,7 @@ progress {
   }
 
   .resaltar2{
-    font-size: 40px;
+    font-size: 50px;
     text-align: left;
     color: #E92FED;
     font-family: "Inria Sans", sans-serif;
@@ -1201,12 +1201,12 @@ progress {
   .resultadoAdictividad{
     display: flex;
     justify-content: flex-end;
-    font-size: 40px;
+    font-size: 50px;
     text-align: left;
     color: #E92FED;
     font-family: "Inria Sans", sans-serif;
-    margin-left: 84px;
-    margin-top: 60px;
+    margin-left: 70px;
+    margin-top: 70px;
     font-style: bold;
 
   }
@@ -1214,23 +1214,23 @@ progress {
   .bajadaResultado2{
     display: flex;
     position: absolute;
-    font-size: 20px;
+    font-size: 25px;
     text-align: left;
     color: white;
     font-family: "Inria Sans", sans-serif;
-    margin-left: 700px;
-    margin-top: 115px;
+    margin-left: 750px;
+    margin-top: 140px;
 
   }
 
   .rEstetica{
     display: flex;
     width: 1400px;
-    margin-top: 150px;
+    margin-top: 220px;
   }
 
   .tituloEstetica{
-    font-size: 40px;
+    font-size: 50px;
     text-align: left;
     color: white;
     font-family: "Inria Sans", sans-serif;
@@ -1238,7 +1238,7 @@ progress {
   }
 
   .resaltar3{
-    font-size: 40px;
+    font-size: 50px;
     text-align: left;
     color: #FF9A51;
     font-family: "Inria Sans", sans-serif;
@@ -1248,12 +1248,12 @@ progress {
   .resultadoEstetica{
     display: flex;
     justify-content: flex-end;
-    font-size: 40px;
+    font-size: 50px;
     text-align: left;
     color: #FF9A51;
     font-family: "Inria Sans", sans-serif;
-    margin-left: 125px;
-    margin-top: 60px;
+    margin-left: 120px;
+    margin-top: 72px;
     font-style: bold;
 
   }
@@ -1261,12 +1261,12 @@ progress {
   .bajadaResultado3{
     display: flex;
     position: absolute;
-    font-size: 20px;
+    font-size: 25px;
     text-align: left;
     color: white;
     font-family: "Inria Sans", sans-serif;
-    margin-left: 700px;
-    margin-top: 112px;
+    margin-left: 750px;
+    margin-top: 140px;
   }
 
   .chartWrapper{
